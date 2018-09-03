@@ -28,7 +28,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent>{
 	
 	@Override
 	public void onApplicationEvent(ContextRefreshedEvent event) {
-		log.info("Calling init.");
+		log.info("Calling init()");
 		initData();
 		
 	}
